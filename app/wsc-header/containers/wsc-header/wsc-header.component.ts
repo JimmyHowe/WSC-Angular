@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'wsc-header',
   styleUrls: ['wsc-header.component.scss'],
   template: `
-      <div>
-          wsc-header
+      <div id="wsc-header">
+          <h1>Website Status Checker</h1>
       </div>
   `
 })
