@@ -3,9 +3,9 @@ import { Component, Input } from "@angular/core";
 @Component({
   selector: 'wsc-splash',
   template: `
-    <div>
-        Welcome {{ user }}
-    </div>
+      <div>
+          Welcome {{ userOrNot() }}
+      </div>
   `
 })
 export class WscSplashComponent {
@@ -13,6 +13,10 @@ export class WscSplashComponent {
   @Input()
   user: string;
 
-  constructor() {
+  userOrNot() {
+    if (this.user)
+      return this.user;
+
+    return "Random Person";
   }
 }
