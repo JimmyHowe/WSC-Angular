@@ -19,7 +19,7 @@ class MenuItem {
       <div>
           <ul>
               <li *ngFor="let menu of menus">
-                  <a href="{{ menu.url }}">{{ menu.text }}</a>
+                  <a [href]="menu.url">{{ menu.text }}</a>
               </li>
           </ul>
       </div>
