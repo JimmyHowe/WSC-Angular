@@ -4,9 +4,10 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   styleUrls: ['app.component.scss'],
   template: `
-    <div class="app">
-      <wsc-header></wsc-header>
-    </div>
+      <div class="app">
+          <wsc-header></wsc-header>
+          <wsc-menu></wsc-menu>
+      </div>
   `
 })
 export class AppComponent {
