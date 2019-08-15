@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { CommonModule } from "@angular/common";
 import { WscHeaderModule } from "./wsc-header/wsc-header.module";
 import { WscMenuModule } from "./wsc-menu/wsc-menu.module";
+import { WscBodyModule } from "./wsc-body/wsc-body.module";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { WscMenuModule } from "./wsc-menu/wsc-menu.module";
     BrowserModule,
     CommonModule,
     WscHeaderModule,
-    WscMenuModule
+    WscMenuModule,
+    WscBodyModule
   ],
   bootstrap: [
     AppComponent

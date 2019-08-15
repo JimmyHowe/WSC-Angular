@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
       <div class="app">
           <wsc-header></wsc-header>
           <wsc-menu></wsc-menu>
+          <wsc-body></wsc-body>
       </div>
   `
 })
