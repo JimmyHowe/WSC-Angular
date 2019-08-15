@@ -16,7 +16,7 @@ class MenuItem {
   selector: 'wsc-menu',
   styleUrls: ['wsc-menu.component.scss'],
   template: `
-      <div>
+      <div id="wsc-menu">
           <ul>
               <li *ngFor="let menu of menus">
                   <a [href]="menu.url">{{ menu.text }}</a>
