@@ -1,26 +1,14 @@
-#wsc-menu {
+#wsc-body {
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  outline: 4px dotted green;
 
-    li {
-      float: left;
+  .wsc-body-detail-area {
 
-      a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
+    outline: 4px dotted orange;
 
-      a:hover {
-        background-color: #111;
-      }
+    .wsc-suite-detail {
+
+      outline: 4px dotted pink;
 
     }
 
