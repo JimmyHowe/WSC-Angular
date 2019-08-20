@@ -47,9 +47,7 @@ export class WscBodyComponent implements OnInit {
 
   handleDelete(event) {
 
-    let index = this.suites.findIndex(function (element) {
-      return element === event;
-    });
+    let index = this.suites.findIndex(i => i.url === event);
 
     this.suites.splice(index, 1)
   }
